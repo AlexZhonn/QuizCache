@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* In your style.css */
+body {
+  @apply bg-transparent; /* Try to make body neutral */
+  margin: 0;
+  padding: 10px; /* Push content in so rounded corners are visible against background */
+}
